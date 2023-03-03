@@ -58,8 +58,8 @@
   </platform>
 
   <platform name="ios">
-    <preference name="IOS_FIREBASE_CRASHLYTICS_POD_VERSION" default="~> 8.8.0" />
-    <preference name="IOS_FIREBASE_ANALYTICS_POD_VERSION" default="~> 8.8.0" />
+    <preference name="IOS_FIREBASE_CRASHLYTICS_POD_VERSION" default="~> 6.23.0" />
+    <preference name="IOS_FIREBASE_ANALYTICS_POD_VERSION" default="~> 6.23.0" />
 
     <js-module src="www/crashlytics.js" name="FirebaseCrashlytics">
       <clobbers target="FirebaseCrashlytics"/>
